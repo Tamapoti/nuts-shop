@@ -12,13 +12,14 @@ footer{
 	margin: 20px 0px 0px -10px;
 	padding: 10px;
 }
-div {
-	display: inline-block;
-	width: 12em;
-}
+/*div {
+	/* display: inline-block; */
+	/* width: 12em; */
+/*}*/
+
 .ib {
 	display:inline-block; /*改行されなくなる*/
-}
+ }
 .th0, .th1, .th2, .td0, .td1, .td2 {
 	display:inline-block;
 	padding-bottom:5px; /*下に空白ができる */
@@ -33,3 +34,5 @@ div {
 .th1, .td1 {
 	width:11em;
 }
+
+

@@ -27,9 +27,26 @@
     echo '<td>',$row['id'], '</td>';
     echo '<td>',$row['name'], '</td>';
     echo '<td>',$row['price'], '</td>';
+   // echo '<td>';
+   // echo '<a href ="delete-output.php?id=' ,$row['id'],'"
+   //       onclick ="return del()" >削除</a>';
+   // echo '</td>';
     echo '</tr>';
     echo "\n";
   }
   ?>
   </teble>
+
+<!-- <script>>
+//    function del(){
+  //任意のタイミングで実行したいから囲む
+  //複数の箇所から呼び出して同じ処理をしたいから
+  //ネイティブな(組み込み)関数の引数にするため
+//if(confirm("背景の色を変えてもいいですか？")){
+// document.bgColor = "green";
+// return false;
+//}
+//    }
+//</script>
+
   <?php require '../footer.php';?>
